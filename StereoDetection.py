@@ -39,7 +39,7 @@ def euclidean_distance(a, b):
 preprocess_input, input_size = get_pressprocess_info()
 model = build_model()
 
-cap = cv2.VideoCapture('./input.mp4')
+cap = cv2.VideoCapture('./sbs.mp4')
 
 while cap.isOpened():
     ret, frame = cap.read()
